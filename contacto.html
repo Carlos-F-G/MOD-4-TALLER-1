@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hospital Privado - Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="img/logo-02.png" alt="Logo del hospital">
+        </div>
+        <button class="header__menu-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="header__nav">
+            <ul class="header__nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="equipo.html">Equipo Médico</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><button class="header__cta-button" id="btnReservarCita">Reservar Cita</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <h1>Contáctanos</h1>
+            <p>Si tienes alguna pregunta o deseas más información, completa el siguiente formulario:</p>
+
+            <form id="contactForm" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="ubicacion">
+            <h2>¿Dónde estamos?</h2>
+            <p>Encuéntranos a dos cuadras del metro escuela militar</p>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenido">
+            <ul class="footer__enlaces">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="equipo.html">Equipo Médico</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="footer__info-contacto">
+                <p>Escríbenos a: serviciohospital@hospitalnuevavida.cl</p>
+                <p>Fono: +569 12345678</p>
+                <p>Santiago, Chile</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
