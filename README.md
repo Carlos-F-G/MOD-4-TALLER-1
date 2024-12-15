@@ -1,6 +1,6 @@
-# Hospital Nueva Vida - Sitio Web
+# Hospital Nueva Vida
 
-Este proyecto es un sistema web desarrollado en **React** con **Material-UI** para un hospital ficticio llamado "Hospital Nueva Vida". Su objetivo es proporcionar una interfaz profesional para la visualización de información sobre doctores, servicios médicos y la funcionalidad de agendar citas.
+Para la evaluación de módulo 4 del taller 1 continuamos con desarrollo en **React** y **Material-UI**. El objetivo es proporcionar la visualización de información sobre doctores, servicios médicos y la funcionalidad de agendar citas.
 
 ## Características
 
